@@ -6,10 +6,12 @@
     <img height="200" src="https://user-images.githubusercontent.com/33732634/201248345-0df081eb-da1d-4605-92bb-e4c40bfdcd78.png" />   
 </p>
 
+This is a fork from [**Havenstd06/laravel-plex**](https://github.com/Havenstd06/laravel-plex) to support laravel10
+
 ## Installation
 
 ```bash
-composer require havenstd06/laravel-plex
+composer require dualznz/laravel-plex
 ```
 
 #### Publish Assets
