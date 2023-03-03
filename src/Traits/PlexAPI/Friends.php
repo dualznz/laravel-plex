@@ -1,8 +1,8 @@
 <?php
 
-namespace Havenstd06\LaravelPlex\Traits\PlexAPI;
+namespace Dualznz\LaravelPlex\Traits\PlexAPI;
 
-use Havenstd06\LaravelPlex\Classes\FriendRestrictionsSettings;
+use Dualznz\LaravelPlex\Classes\FriendRestrictionsSettings;
 use Psr\Http\Message\StreamInterface;
 
 trait Friends

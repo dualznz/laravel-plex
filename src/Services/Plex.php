@@ -1,8 +1,8 @@
 <?php
 
-namespace Havenstd06\LaravelPlex\Services;
+namespace Dualznz\LaravelPlex\Services;
 
-use Havenstd06\LaravelPlex\Traits\PlexRequest;
+use Dualznz\LaravelPlex\Traits\PlexRequest;
 use Exception;
 
 class Plex

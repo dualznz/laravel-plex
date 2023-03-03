@@ -14,7 +14,7 @@ composer require havenstd06/laravel-plex
 
 #### Publish Assets
 ```bash
-php artisan vendor:publish --provider="Havenstd06\LaravelPlex\Providers\PlexServiceProvider" 
+php artisan vendor:publish --provider="Dualznz\LaravelPlex\Providers\PlexServiceProvider" 
 ```
 
 #### Configuration
@@ -52,7 +52,7 @@ return [
 #### Initialization
 
 ```php
-use Havenstd06\LaravelPlex\Services\Plex as PlexClient;
+use Dualznz\LaravelPlex\Services\Plex as PlexClient;
 
 $provider = new PlexClient;
 ```
@@ -141,7 +141,7 @@ If you don't pass an array with the library ids (`$librarySectionIds`), all the 
 Settings are optional too.
 
 ```php
-use Havenstd06\LaravelPlex\Classes\FriendRestrictionsSettings;
+use Dualznz\LaravelPlex\Classes\FriendRestrictionsSettings;
 
 $librarySectionIds = [
     652397653,
@@ -185,7 +185,7 @@ $provider->getFriendDetail(12345678); // Friend ID / InvitedID
 Update friend restrictions
 
 ```php
-use Havenstd06\LaravelPlex\Classes\FriendRestrictionsSettings;
+use Dualznz\LaravelPlex\Classes\FriendRestrictionsSettings;
 
 $settings = new FriendRestrictionsSettings(
     allowChannels: '1',

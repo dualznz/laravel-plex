@@ -1,5 +1,5 @@
 {
-    "name": "havenstd06/laravel-plex",
+    "name": "dualznz/laravel-plex",
     "type": "library",
     "description": "A Laravel package that allows access to the API of your Plex server.",
     "keywords": ["http", "rest", "web service", "plex", "laravel plex"],
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Havenstd06\\LaravelPlex\\": "src/"
+            "Dualznz\\LaravelPlex\\": "src/"
         }
     },
     "require": {
@@ -33,10 +33,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Havenstd06\\LaravelPlex\\Providers\\PlexServiceProvider"
+                "Dualznz\\LaravelPlex\\Providers\\PlexServiceProvider"
             ],
             "aliases": {
-                "Plex": "Havenstd06\\LaravelPlex\\Facades\\Plex"
+                "Plex": "Dualznz\\LaravelPlex\\Facades\\Plex"
             }
         }
     },

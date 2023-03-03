@@ -1,6 +1,6 @@
 <?php
 
-namespace Havenstd06\LaravelPlex\Classes;
+namespace Dualznz\LaravelPlex\Classes;
 
 class FriendRestrictionsSettings
 {

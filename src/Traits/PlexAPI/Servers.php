@@ -1,6 +1,6 @@
 <?php
 
-namespace Havenstd06\LaravelPlex\Traits\PlexAPI;
+namespace Dualznz\LaravelPlex\Traits\PlexAPI;
 
 use Psr\Http\Message\StreamInterface;
 

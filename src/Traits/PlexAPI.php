@@ -1,22 +1,22 @@
 <?php
 
-namespace Havenstd06\LaravelPlex\Traits;
+namespace Dualznz\LaravelPlex\Traits;
 
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Accounts;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Databases;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Devices;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Libraries;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Logs;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Medias;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Playlists;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Friends;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Resources;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Servers;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Sessions;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Shared;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\System;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Translations;
-use Havenstd06\LaravelPlex\Traits\PlexAPI\Users;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Accounts;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Databases;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Devices;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Libraries;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Logs;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Medias;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Playlists;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Friends;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Resources;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Servers;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Sessions;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Shared;
+use Dualznz\LaravelPlex\Traits\PlexAPI\System;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Translations;
+use Dualznz\LaravelPlex\Traits\PlexAPI\Users;
 
 trait PlexAPI
 {

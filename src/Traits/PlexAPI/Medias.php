@@ -1,6 +1,6 @@
 <?php
 
-namespace Havenstd06\LaravelPlex\Traits\PlexAPI;
+namespace Dualznz\LaravelPlex\Traits\PlexAPI;
 
 use Psr\Http\Message\StreamInterface;
 
@@ -111,7 +111,7 @@ trait Medias
     public function getVideo(string $path, string $protocol = 'http'): StreamInterface|array|string
     {
         $this->apiBaseUrl = $this->config['server_api_url'];
-        
+
         $this->apiEndPoint = "video/:/transcode/universal/decision";
 
         $this->setRequestQuery('path', $path);
